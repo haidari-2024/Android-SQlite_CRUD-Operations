@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
     <EditText
         android:id="@+id/et_name"
         android:layout_width="0dp"
@@ -45,6 +47,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="16dp"
+        android:background="#FF3DA7B3"
         android:text="@string/SaveData"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -58,6 +61,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
+        android:background="#FF3DA7B3"
         android:text="@string/Showdata"
         app:layout_constraintEnd_toStartOf="@+id/btnsave"
         app:layout_constraintHorizontal_bias="0.757"
@@ -84,6 +88,7 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
+        android:background="#FF3DA7B3"
         android:text="@string/UpdateData"
         app:layout_constraintBottom_toTopOf="@+id/lstview"
         app:layout_constraintEnd_toEndOf="parent"
